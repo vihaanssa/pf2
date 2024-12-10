@@ -38,6 +38,15 @@
             font-family: 'Instrument Sans', sans-serif;
             font-weight:600;
         }
+        .thin-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px; /* Adjust this value for a thinner/thicker line */
+    background-color: blue; /* Set the underline color */
+  }
 
         .header-padding {
             padding-left: 15px;
@@ -53,7 +62,7 @@
         
         .karigari-title {
             font-family: 'Instrument Serif', serif;
-            font-size: 3.5rem;
+            font-size: 5rem;
             color: #1475CA;
             margin-bottom: 1rem;
         }
